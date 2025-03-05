@@ -2,11 +2,11 @@
 MedGenie - AI-Powered Medical Virtual Assistant
 # MedGenie: AI-Powered Predictive Diagnostics & Remote Health Monitoring
 
-MedGenie is a cutting-edge healthcare platform that integrates advanced AI models with a comprehensive suite of diagnostic and remote monitoring tools. Our mission is to revolutionize healthcare by providing personalized, predictive, and accessible health solutions for patients and doctors alike.
+MedGenie is a healthcare platform that integrates advanced AI models with a comprehensive suite of diagnostic and remote monitoring tools. Our mission is to revolutionize healthcare by providing personalized, predictive, and accessible health solutions for patients and doctors alike.
 
 ---
 
-##Table of Contents
+## Table of Contents
 
 - [Overview](#overview)
 - [Key Features](#key-features)
@@ -63,8 +63,6 @@ MedGenie is continuously evolving. Some exciting future enhancements include:
 - **Backend**: Node.js / Python (Flask or Django)
 - **AI/ML**: TensorFlow / PyTorch for deep learning models
 - **Database**: PostgreSQL / MongoDB
-- **Video Consultation**: WebRTC / Zoom API integration
-- **Blockchain (for EHR)**: Ethereum / Hyperledger Fabric
 - **Other**: Integration with various wearable APIs (Apple Health, Google Fit)
 
 ---
@@ -75,3 +73,27 @@ MedGenie is continuously evolving. Some exciting future enhancements include:
    ```bash
    git clone https://github.com/yourusername/MedGenie.git
    cd MedGenie
+2. **Install Dependencies**
+   For backend:
+   ```bash
+      pip install -r requirements.txt
+   ```
+   For frontend:
+      ```bash
+      npm install
+3. Create a .env file in the root directory and add necessary configurations (API keys,       
+    database URIs, etc.).
+4. Run the Application:
+  Start the backend server:
+```bash
+python app.py
+```
+Start the frontend:
+```bash
+npm start
+
+
+
+
+
+   
